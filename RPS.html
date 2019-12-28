@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock, Paper Scisors</title>
+	<meta charset = 'utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name = 'author' content = 'Alan.R'>
+	<link rel = 'stylesheet' href = 'style.css'>
+</head>
+<body>
+	<h1>Human VS Computer</h1>
+	        <h3>on</h3>
+	<h1>Rock Paper Scissors!</h1>
+	<div class = 'Player'> 
+		<p>Player</p>
+		<ul>
+			<li>
+				<button id = "Rock"><img src="Images/rock.png" alt = "rock"></button>
+			</li>
+			<li>
+				<button id = "Paper"><img src="Images/paper.png" alt = "paper"></button>
+			</li>
+			<li>
+				<button id = "Scissors"><img src="Images/scissors.png" alt = "scissors"></button>
+			</li>
+		</ul>
+
+	</div>
+	<div class = "Computer">
+		<p>Computer</p>
+		<ul>
+			<ul>
+            <li><img src="Images/rock.png" id="Rock" alt="Rock"></li>
+            <li><img src="Images/paper.png" id="Paper" alt="Paper"></li>
+            <li><img src="Images/scissors.png" id="Scissors" alt="Scissors"></li>
+        </ul>
+    </div>
+		</ul>
+		
+	</div>
+	<div class = "Player-vs-Computer">
+		<div class = "Player-hand">
+			<img src="Images/rock.png" alt = "player's hand" id = "player's hand">
+			
+		</div>
+		<div class = "Computer-hand">
+			<img src="Images/rock.png" alt = "computer's hand" id = "computer's hand">
+			
+		</div>
+
+	</div>
+	<div class = "Score">
+		<div id = "result"></div>
+		<div id = "round winner"></div>
+		<h2>Player:</h2><div id = "Player-score"></div>
+		<h2>Computer:</h2><div id = "Computer-score"></div>
+		
+	</div>
+	<script src = "rps.js"></script>
+</body>
+</html>
